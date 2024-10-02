@@ -1,4 +1,6 @@
-﻿namespace Catedra_2.Data
+﻿using System.Data.SqlClient;
+
+namespace Catedra_2.Data
 {
     public class Conexion
     {

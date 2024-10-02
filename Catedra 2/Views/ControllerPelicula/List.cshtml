@@ -1,71 +1,53 @@
-﻿@model IEnumerable<Catedra_2.Models.ModeloPelicula>
+﻿@model List<ModeloPelicula>
 
 @{
     ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>List</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.ID_Pelicula)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Poster)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Titulo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sinopsis)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Director)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Genero)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Fecha_Estreno)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.ID_Pelicula)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Poster)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Titulo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Sinopsis)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Director)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Genero)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Fecha_Estreno)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+<div class="card">   
+    <h3 class="p-3">Listar Peliculas</h3>
+    <div class="card-body">
+        <a asp-action="Save" asp-controller="ControllerPelicula" class="btn btn-success">Crear Nuevo</a>
+        </hr>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col" class="text-center">ID</th>
+                    <th scope="col" class="text-center">Poster</th>
+                    <th scope="col" class="text-center">Titulo</th>
+                    <th scope="col" class="text-center">Sinópsis</th>
+                    <th scope="col" class="text-center">Director</th>
+                    <th scope="col" class="text-center">Genero</th>
+                    <th scope="col" class="text-center">Fecha de estreno</th>
+                    <th scope="col" class="text-center">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th class="text-center">@item.ID_Pelicula</th>
+                        <th class="fw-normal text-center">@item.Poster</th>
+                        <th class="fw-normal text-center">@item.Titulo</th>                        
+                        <th class="fw-normal text-center">@item.Sinopsis</th>
+                        <th class="fw-normal text-center">@item.Director</th>
+                        <th class="fw-normal text-center">@item.Genero</th>
+                        <th class="fw-normal text-center">@item.Fecha_Estreno</th>
+
+                        <th class="fw-normal text-center">
+                            <a asp-action="Update" asp-controller="Maintenance" class="btn btn-outline-info" asp-route-IdEmployee="@item.ID_Pelicula"><box-icon name='pencil'></box-icon></a>
+                            <a asp-action="Delete" asp-controller="Maintenance" class="btn btn-outline-danger" asp-route-IdEmployee="@item.ID_Pelicula"><box-icon name='trash'></box-icon></a>
+                        </th>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+

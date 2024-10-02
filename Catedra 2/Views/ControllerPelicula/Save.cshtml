@@ -1,0 +1,54 @@
+﻿@model Catedra_2.Models.ModeloPelicula
+
+@{
+    ViewData["Title"] = "Save";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="p-1">Crear un registro</h3>
+    </div>
+    <div class="card-body">
+        <form asp-action="Save" asp-controller="ControllerPelicula" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <label for="Poster" class="form-label">Poster:</label>
+                <input type="text" asp-for="Poster" class="form-control" aria-describedby="poster">
+                <span asp-validation-for="Poster" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Titulo de la pelicula:</label>
+                <input type="text" asp-for="Titulo" class="form-control" aria-describedby="Title">
+                <span asp-validation-for="Titulo" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Sinopsis de la pelicula:</label>
+                <input type="text" asp-for="Sinopsis" class="form-control" aria-describedby="Sinopsis">
+                <span asp-validation-for="Sinopsis" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Director de la pelicula:</label>
+                <input type="text" asp-for="Director" class="form-control" aria-describedby="Director">
+                <span asp-validation-for="Director" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Genero de la pelicula:</label>
+                <input type="text" asp-for="Genero" class="form-control" aria-describedby="Genero">
+                <span asp-validation-for="Genero" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Fecha de Estreno:</label>
+                <div class="col-lg-3 col-sm-6">
+                    <input id="startDate" class="form-control" asp-for="Fecha_Estreno" type="date" />
+                    <span id="startDateSelected"></span>
+                </div>
+            </div>            
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <a asp-action="List" asp-controller="ControllerPelicula" class="btn btn-warning">Volver a la lista</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

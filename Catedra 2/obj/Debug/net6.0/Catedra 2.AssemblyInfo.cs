@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Catedra 2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+930fde07e593d92a54b1668836fc73cd03142fcb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7f8fadce12c42c0042308b3c43f4ccc97c3a206")]
 [assembly: System.Reflection.AssemblyProductAttribute("Catedra 2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Catedra 2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
