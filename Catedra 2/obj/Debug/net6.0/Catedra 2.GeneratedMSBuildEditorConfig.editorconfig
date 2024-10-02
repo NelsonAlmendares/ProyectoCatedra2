@@ -18,12 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\nelso\source\repos\Catedra 2\Catedra 2
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/nelso/source/repos/Catedra 2/Catedra 2/Views/ControllerPelicula/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGxlclBlbGljdWxhXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/nelso/source/repos/Catedra 2/Catedra 2/Views/ControllerPelicula/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGxlclBlbGljdWxhXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nelso/source/repos/Catedra 2/Catedra 2/Views/ControllerPelicula/Save.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGxlclBlbGljdWxhXFNhdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nelso/source/repos/Catedra 2/Catedra 2/Views/ControllerPelicula/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGxlclBlbGljdWxhXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nelso/source/repos/Catedra 2/Catedra 2/Views/Home/Index.cshtml]

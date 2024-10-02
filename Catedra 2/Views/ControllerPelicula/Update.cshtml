@@ -1,0 +1,54 @@
+﻿@model Catedra_2.Models.ModeloPelicula
+@{
+    ViewData["Title"] = "Update";
+}
+
+<div class="card">
+    <div class="card-header">
+        Editar un Empleado
+    </div>
+    <div class="card-body">
+        <form asp-action="Update" asp-controller="Maintenance" method="post">
+            <input type="hidden" asp-for="ID_Pelicula" class="form-control" aria-describedby="emailHelp">
+
+            <div class="mb-3">
+                <label for="Name" class="form-label">Nombre del Empleado:</label>
+                <input type="text" asp-for="Poster" class="form-control" aria-describedby="emailHelp">
+                <span asp-validation-for="Poster" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="Titulo" class="form-label">Apellido del Empleado:</label>
+                <input type="text" asp-for="Titulo" class="form-control" aria-describedby="emailHelp">
+                <span asp-validation-for="Titulo" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="Sinopsis" class="form-label">Apellido del Empleado:</label>
+                <input type="text" asp-for="Sinopsis" class="form-control" aria-describedby="emailHelp">
+                <span asp-validation-for="Sinopsis" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="Director" class="form-label">Apellido del Empleado:</label>
+                <input type="text" asp-for="Director" class="form-control" aria-describedby="emailHelp">
+                <span asp-validation-for="Director" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="Genero" class="form-label">Apellido del Empleado:</label>
+                <input type="text" asp-for="Genero" class="form-control" aria-describedby="emailHelp">
+                <span asp-validation-for="Genero" class="text-danger"></span>
+            </div>            
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Fecha de Nacimiento:</label>
+                <div class="col-lg-3 col-sm-6">
+                    <input id="startDate" class="form-control" asp-for="Fecha_Estreno" type="date" />
+                    <span id="startDateSelected"></span>
+                </div>
+            </div>            
+            <button type="submit" value="Save" class="btn btn-primary">Submit</button>
+            <a asp-action="List" asp-controller="ControllerPelicula" class="btn btn-warning">Volver a la lista</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

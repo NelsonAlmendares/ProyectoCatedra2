@@ -69,7 +69,7 @@ namespace Catedra_2.Data
                 // TODO: Estruncturas de los comandos de SQL =>
                 SqlCommand GetEmployeeById = new SqlCommand("GetPeliByID", connect);
                 // Enviamos el parámetro que recibimos en la función al parámetro del Procedimiento
-                GetEmployeeById.Parameters.AddWithValue("@ID_Pelicula", IdPelicula);
+                GetEmployeeById.Parameters.AddWithValue("@id", IdPelicula);
                 GetEmployeeById.CommandType = CommandType.StoredProcedure;
 
                 // Vamos a leer los datos que provienen de
@@ -130,7 +130,7 @@ namespace Catedra_2.Data
         }
 
         // Metodo para actualizar datos:
-        public bool UpdateData(ModeloPelicula empReq)
+        public bool UpdateData(ModeloPelicula PlReq)
         {
             bool response;
             try
@@ -144,17 +144,50 @@ namespace Catedra_2.Data
                     connect.Open();
 
                     // TODO: Estruncturas de los comandos de SQL =>
-                    SqlCommand UpdateData = new SqlCommand("spUpdateData", connect);
+                    SqlCommand UpdateData = new SqlCommand("ActualizarPelicula", connect);
                     // Enviamos el parámetro que recibimos en la función al parámetro del Procedimiento
-                    UpdateData.Parameters.AddWithValue("@ID_Empleado", empReq.ID_empleado);
-                    UpdateData.Parameters.AddWithValue("@primer_nombre", empReq.FirstName);
-                    UpdateData.Parameters.AddWithValue("@segundo_nombre", empReq.LastName);
-                    UpdateData.Parameters.AddWithValue("@fecha_nacimiento", empReq.DateBirth);
-                    UpdateData.Parameters.AddWithValue("@id_Puesto", empReq.Position);
-                    UpdateData.Parameters.AddWithValue("@salario", empReq.Amount);
+                    UpdateData.Parameters.AddWithValue("@id", PlReq.ID_Pelicula);
+                    UpdateData.Parameters.AddWithValue("@poster", PlReq.Poster);
+                    UpdateData.Parameters.AddWithValue("@titulo", PlReq.Titulo);
+                    UpdateData.Parameters.AddWithValue("@sinopsis", PlReq.Sinopsis);
+                    UpdateData.Parameters.AddWithValue("@director", PlReq.Director);
+                    UpdateData.Parameters.AddWithValue("@genero", PlReq.Genero);
+                    UpdateData.Parameters.AddWithValue("@fecha_estreno", PlReq.Fecha_Estreno);
                     UpdateData.CommandType = CommandType.StoredProcedure;
                     // Realizamos la ejecución de la consulta con los parámetros
                     UpdateData.ExecuteNonQuery();
+                }
+                response = true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error at: " + ex);
+                response = false;
+            }
+            return response;
+        }
+
+        // Metodo para Eliminar datos:
+        public bool DeleteData(ModeloPelicula PlReq)
+        {
+            bool response;
+            try
+            {
+                // Instancimos un objeto para la  cadena de conexión con la base de datos:
+                var cn = new Conexion();
+                // Mandamos a llamar el método que contiene el fragmento tomado del appseting con la información de la conexión
+                using (var connect = new SqlConnection(cn.getConnectSQL()))
+                {
+                    // Abrimos la conexión
+                    connect.Open();
+
+                    // TODO: Estruncturas de los comandos de SQL =>
+                    SqlCommand DeleteData = new SqlCommand("DELETE FROM peliculas WHERE id = ?;", connect);
+                    // Enviamos el parámetro que recibimos en la función al parámetro del Procedimiento
+                    DeleteData.Parameters.AddWithValue("@id", PlReq.ID_Pelicula);
+                    DeleteData.CommandType = CommandType.Text;
+                    // Realizamos la ejecución de la consulta con los parámetros
+                    DeleteData.ExecuteNonQuery();
                 }
                 response = true;
             }

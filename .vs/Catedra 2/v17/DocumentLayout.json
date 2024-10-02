@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\nelso\\source\\repos\\Catedra 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|c:\\users\\nelso\\source\\repos\\catedra 2\\catedra 2\\data\\datapelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|solutionrelative:catedra 2\\data\\datapelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|c:\\users\\nelso\\source\\repos\\catedra 2\\catedra 2\\views\\controllerpelicula\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|solutionrelative:catedra 2\\views\\controllerpelicula\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|c:\\users\\nelso\\source\\repos\\catedra 2\\catedra 2\\views\\controllerpelicula\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|solutionrelative:catedra 2\\views\\controllerpelicula\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|c:\\users\\nelso\\source\\repos\\catedra 2\\catedra 2\\views\\controllerpelicula\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|solutionrelative:catedra 2\\views\\controllerpelicula\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|c:\\users\\nelso\\source\\repos\\catedra 2\\catedra 2\\data\\datapelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|solutionrelative:catedra 2\\data\\datapelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|c:\\users\\nelso\\source\\repos\\catedra 2\\catedra 2\\views\\controllerpelicula\\save.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|solutionrelative:catedra 2\\views\\controllerpelicula\\save.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|c:\\users\\nelso\\source\\repos\\catedra 2\\catedra 2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|solutionrelative:catedra 2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|c:\\users\\nelso\\source\\repos\\catedra 2\\catedra 2\\controllers\\controllerpelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|solutionrelative:catedra 2\\controllers\\controllerpelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|c:\\users\\nelso\\source\\repos\\catedra 2\\catedra 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|solutionrelative:catedra 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|c:\\users\\nelso\\source\\repos\\catedra 2\\catedra 2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|solutionrelative:catedra 2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{934A34FF-FB23-4136-A8C8-0F6F15B94C72}|Catedra 2\\Catedra 2.csproj|c:\\users\\nelso\\source\\repos\\catedra 2\\catedra 2\\models\\modelopelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,6 +51,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\nelso\\source\\repos\\Catedra 2\\Catedra 2\\Views\\ControllerPelicula\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Catedra 2\\Views\\ControllerPelicula\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\nelso\\source\\repos\\Catedra 2\\Catedra 2\\Views\\ControllerPelicula\\Delete.cshtml",
+              "RelativeToolTip": "Catedra 2\\Views\\ControllerPelicula\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T03:59:46.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\nelso\\source\\repos\\Catedra 2\\Catedra 2\\Views\\ControllerPelicula\\Update.cshtml",
+              "RelativeDocumentMoniker": "Catedra 2\\Views\\ControllerPelicula\\Update.cshtml",
+              "ToolTip": "C:\\Users\\nelso\\source\\repos\\Catedra 2\\Catedra 2\\Views\\ControllerPelicula\\Update.cshtml",
+              "RelativeToolTip": "Catedra 2\\Views\\ControllerPelicula\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T03:37:26.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Save.cshtml",
               "DocumentMoniker": "C:\\Users\\nelso\\source\\repos\\Catedra 2\\Catedra 2\\Views\\ControllerPelicula\\Save.cshtml",
               "RelativeDocumentMoniker": "Catedra 2\\Views\\ControllerPelicula\\Save.cshtml",
@@ -54,11 +84,12 @@
               "RelativeToolTip": "Catedra 2\\Views\\ControllerPelicula\\Save.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T17:57:07.55Z"
+              "WhenOpened": "2024-09-29T17:57:07.55Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\nelso\\source\\repos\\Catedra 2\\Catedra 2\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Catedra 2\\Views\\Shared\\_Layout.cshtml",
@@ -66,60 +97,51 @@
               "RelativeToolTip": "Catedra 2\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T17:24:40.428Z"
+              "WhenOpened": "2024-09-29T17:24:40.428Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nelso\\source\\repos\\Catedra 2\\Catedra 2\\Program.cs",
-              "RelativeDocumentMoniker": "Catedra 2\\Program.cs",
-              "ToolTip": "C:\\Users\\nelso\\source\\repos\\Catedra 2\\Catedra 2\\Program.cs",
-              "RelativeToolTip": "Catedra 2\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T00:02:21.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\nelso\\source\\repos\\Catedra 2\\Catedra 2\\Views\\ControllerPelicula\\List.cshtml",
               "RelativeDocumentMoniker": "Catedra 2\\Views\\ControllerPelicula\\List.cshtml",
               "ToolTip": "C:\\Users\\nelso\\source\\repos\\Catedra 2\\Catedra 2\\Views\\ControllerPelicula\\List.cshtml",
               "RelativeToolTip": "Catedra 2\\Views\\ControllerPelicula\\List.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAIwA0AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-25T23:54:23.892Z"
+              "WhenOpened": "2024-09-25T23:54:23.892Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DataPelicula.cs",
               "DocumentMoniker": "C:\\Users\\nelso\\source\\repos\\Catedra 2\\Catedra 2\\Data\\DataPelicula.cs",
               "RelativeDocumentMoniker": "Catedra 2\\Data\\DataPelicula.cs",
               "ToolTip": "C:\\Users\\nelso\\source\\repos\\Catedra 2\\Catedra 2\\Data\\DataPelicula.cs",
               "RelativeToolTip": "Catedra 2\\Data\\DataPelicula.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAAAIwIoAAAAlAAAA",
+              "ViewState": "AQIAAJ4AAAAAAAAAAADwv7oAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T23:34:07.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ControllerPelicula.cs",
               "DocumentMoniker": "C:\\Users\\nelso\\source\\repos\\Catedra 2\\Catedra 2\\Controllers\\ControllerPelicula.cs",
               "RelativeDocumentMoniker": "Catedra 2\\Controllers\\ControllerPelicula.cs",
               "ToolTip": "C:\\Users\\nelso\\source\\repos\\Catedra 2\\Catedra 2\\Controllers\\ControllerPelicula.cs",
               "RelativeToolTip": "Catedra 2\\Controllers\\ControllerPelicula.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAfAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwEIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T22:12:51.718Z"
+              "WhenOpened": "2024-09-25T22:12:51.718Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Users\\nelso\\source\\repos\\Catedra 2\\Catedra 2\\Data\\Conexion.cs",
               "RelativeDocumentMoniker": "Catedra 2\\Data\\Conexion.cs",
@@ -137,7 +159,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ModeloPelicula.cs",
               "DocumentMoniker": "C:\\Users\\nelso\\source\\repos\\Catedra 2\\Catedra 2\\Models\\ModeloPelicula.cs",
               "RelativeDocumentMoniker": "Catedra 2\\Models\\ModeloPelicula.cs",

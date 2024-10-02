@@ -36,5 +36,44 @@ namespace Catedra_2.Controllers
                 return View();
             }
         }
+
+        public IActionResult Update(int IdPelicula)
+        {
+            var ObjEmployee = _GetPeli.GetDataInfo(IdPelicula);
+            return View(ObjEmployee);
+        }
+
+        [HttpPost]
+        public IActionResult Update(ModeloPelicula emReq)
+        {
+            if (!ModelState.IsValid)
+                return View();
+
+            var response = _GetPeli.UpdateData(emReq);
+            if (response)
+                return RedirectToAction("List");
+            else
+                return View();
+        }
+
+        // Metodo para Eliminar datos
+        public IActionResult Delete(int PlErq)
+        {
+            var ObjEmployee = _GetPeli.GetDataInfo(PlErq);
+            return View(ObjEmployee);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(ModeloPelicula PlErq)
+        {
+            if (!ModelState.IsValid)
+                return View();
+
+            var response = _GetPeli.DeleteData(PlErq);
+            if (response)
+                return RedirectToAction("List");
+            else
+                return View();
+        }
     }
 }

@@ -5,49 +5,30 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<!-- -->
 
-
-<div class="card">   
-    <h3 class="p-3">Listar Peliculas</h3>
-    <div class="card-body">
-        <a asp-action="Save" asp-controller="ControllerPelicula" class="btn btn-success">Crear Nuevo</a>
-        </hr>
-
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col" class="text-center">ID</th>
-                    <th scope="col" class="text-center">Poster</th>
-                    <th scope="col" class="text-center">Titulo</th>
-                    <th scope="col" class="text-center">Sinópsis</th>
-                    <th scope="col" class="text-center">Director</th>
-                    <th scope="col" class="text-center">Genero</th>
-                    <th scope="col" class="text-center">Fecha de estreno</th>
-                    <th scope="col" class="text-center">Acciones</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <th class="text-center">@item.ID_Pelicula</th>
-                        <th class="fw-normal text-center">@item.Poster</th>
-                        <th class="fw-normal text-center">@item.Titulo</th>                        
-                        <th class="fw-normal text-center">@item.Sinopsis</th>
-                        <th class="fw-normal text-center">@item.Director</th>
-                        <th class="fw-normal text-center">@item.Genero</th>
-                        <th class="fw-normal text-center">@item.Fecha_Estreno</th>
-
-                        <th class="fw-normal text-center">
-                            <a asp-action="Update" asp-controller="Maintenance" class="btn btn-outline-info" asp-route-IdEmployee="@item.ID_Pelicula"><box-icon name='pencil'></box-icon></a>
-                            <a asp-action="Delete" asp-controller="Maintenance" class="btn btn-outline-danger" asp-route-IdEmployee="@item.ID_Pelicula"><box-icon name='trash'></box-icon></a>
-                        </th>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    </div>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="@item.Poster" class="card-img-top" alt="Poster de @item.Titulo">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Titulo</h5>
+                    <p class="card-text"><strong>Sinopsis:</strong> @item.Sinopsis</p>
+                    <p class="card-text"><strong>Director:</strong> @item.Director</p>
+                    <p class="card-text"><strong>Género:</strong> @item.Genero</p>
+                    <p class="card-text"><strong>Fecha de estreno:</strong> @item.Fecha_Estreno</p>
+                    <div class="d-flex justify-content-between">
+                        <a asp-action="Update" asp-controller="ControllerPelicula" class="btn btn-outline-info" asp-route-Pelicula="@item.ID_Pelicula"><box-icon name='pencil'></box-icon></a>
+                        <a asp-action="Delete" asp-controller="ControllerPelicula" class="btn btn-outline-danger" asp-route-Pelicula="@item.ID_Pelicula"><box-icon name='trash'></box-icon></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
 </div>
+
 
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
